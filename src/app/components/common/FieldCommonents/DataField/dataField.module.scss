@@ -1,0 +1,29 @@
+.data_field {
+    font-size: 15px;
+
+    & input {
+        width: 100%;
+        padding: 8px;
+
+        border: 1px solid #cccccc;
+        border-radius: 4px;
+
+        &::placeholder {
+            color: #808090;
+        }
+
+        &:focus {
+            outline: #2684ff auto 1px;
+        }
+    }
+}
+
+.data_field__label {
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.data_field__error {
+    font-size: 12px;
+    color: red;
+}

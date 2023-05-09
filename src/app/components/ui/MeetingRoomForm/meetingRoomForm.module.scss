@@ -1,0 +1,39 @@
+.meeting_room_form {
+    width: 100%;
+    max-width: 350px;
+    margin: 100px auto 0 auto;
+    padding: 15px;
+
+    border: 1px solid #918f8f;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #4d4d4d;
+}
+
+.form_title {
+    margin: 10px 0 40px 0;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.form_field {
+    margin-bottom: 20px;
+
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+.form_actions {
+    display: flex;
+    justify-content: space-around;
+
+    & button {
+        margin-right: 20px;
+
+        &:last-of-type {
+            margin-right: 0;
+        }
+    }
+}

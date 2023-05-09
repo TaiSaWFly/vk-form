@@ -1,0 +1,32 @@
+.text_area__field {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+
+    & label {
+        margin-bottom: 10px;
+        text-transform: capitalize;
+    }
+
+    & textarea {
+        height: 100px;
+        width: 100%;
+        padding: 0.4rem 0.8rem;
+
+        font-size: 15px;
+        border: 1px solid #cccccc;
+        border-radius: 4px;
+        outline: none;
+        resize: none;
+
+        &:focus {
+            border: 2px solid #2684ff;
+        }
+    }
+}
+
+.text_area__error {
+    font-size: 12px;
+    color: red;
+}
